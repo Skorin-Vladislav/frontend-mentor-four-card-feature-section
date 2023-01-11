@@ -1,0 +1,44 @@
+.card {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 1.5em;
+  margin-bottom: 2em;
+
+  -webkit-box-shadow: 0px 21px 24px 5px rgba(34, 60, 80, 0.05);
+  -moz-box-shadow: 0px 21px 24px 5px rgba(34, 60, 80, 0.05);
+  box-shadow: 0px 21px 24px 5px rgba(34, 60, 80, 0.05);
+}
+
+.card h1 {
+  font-size: 1.45em;
+  color: var(--very-dark-blue);
+  margin-bottom: 0.5em;
+}
+
+.card p {
+  color: var(--grayish-blue);
+  font-size: 0.9em;
+  margin-bottom: 1.5em;
+}
+
+.card-img {
+  align-self: flex-end;
+}
+
+.cyan {
+  border-top: solid var(--cyan) 3px;
+}
+
+.red {
+  border-top: solid var(--red) 3px;
+}
+
+.orange {
+  border-top: solid var(--orange) 3px;
+}
+
+.blue {
+  border-top: solid var(--blue) 3px;
+}
