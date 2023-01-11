@@ -21,4 +21,27 @@ body {
 
 .App {
   text-align: center;
+  padding: 2em;
+}
+
+.header {
+  font-family: "Poppins", sans-serif;
+}
+
+.header h1:first-child {
+  font-weight: lighter;
+  font-size: 1.5em;
+  color: var(--grayish-blue);
+  margin-top: 2em;
+}
+
+.header h1:nth-child(2) {
+  font-size: 1.6em;
+  color: var(--very-dark-blue);
+  margin-bottom: 0.5em;
+}
+
+.header p {
+  color: var(--grayish-blue);
+  text-align: center;
 }
