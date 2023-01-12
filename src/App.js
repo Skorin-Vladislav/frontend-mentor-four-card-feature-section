@@ -16,33 +16,40 @@ function App() {
           points to ensure that your project is successful
         </p>
       </div>
-      <Card
-        heading="Supervisor"
-        subText="Monitors activity to identify project roadblocks"
-        imgSrc={supervisor}
-        brdrColor="cyan"
-      />
 
-      <Card
-        heading="Team Builder"
-        subText="Scans our talent network to create the optimal team for your project"
-        imgSrc={team_builder}
-        brdrColor="red"
-      />
+      <div className="grid">
+        <div className="left">
+          <Card
+            heading="Supervisor"
+            subText="Monitors activity to identify project roadblocks"
+            imgSrc={supervisor}
+            brdrColor="cyan"
+          />
+        </div>
 
-      <Card
-        heading="Karma"
-        subText="Regulaly evaluates our talent to ensure quality"
-        imgSrc={karma}
-        brdrColor="orange"
-      />
+        <Card
+          heading="Team Builder"
+          subText="Scans our talent network to create the optimal team for your project"
+          imgSrc={team_builder}
+          brdrColor="red"
+        />
 
-      <Card
-        heading="Calculator"
-        subText="Uses data from past projects to provide better delivery estimates"
-        imgSrc={calculator}
-        brdrColor="blue"
-      />
+        <Card
+          heading="Karma"
+          subText="Regulaly evaluates our talent to ensure quality"
+          imgSrc={karma}
+          brdrColor="orange"
+        />
+
+        <div className="rigth">
+          <Card
+            heading="Calculator"
+            subText="Uses data from past projects to provide better delivery estimates"
+            imgSrc={calculator}
+            brdrColor="blue"
+          />
+        </div>
+      </div>
     </div>
   );
 }
